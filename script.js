@@ -8,11 +8,12 @@ function tabuada(){
     }else{
         tab.innerHTML=''
         //for
-        for(let i = 1; i <= 10; i++){
+        for(let i = 1; i <= 15; i++){
             let item = document.createElement('option')
             item.text = `${num} x ${i} = ${num*i}`
             tab.appendChild(item)
         }
 
     }
+
 }
